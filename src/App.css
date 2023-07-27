@@ -1,0 +1,51 @@
+.App{
+    height: 100vh;
+    width: 100vw;
+    background: hsla(302, 82%, 76%, 1);
+
+  background: linear-gradient(90deg, hsla(302, 82%, 76%, 1) 0%, hsla(258, 40%, 68%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(302, 82%, 76%, 1) 0%, hsla(258, 40%, 68%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(302, 82%, 76%, 1) 0%, hsla(258, 40%, 68%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f492f0", endColorstr="#a18dce", GradientType=1 );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header-section h2{
+  color: crimson;
+  font-size: 2rem;
+  margin: 10px;
+}
+.middle-section{
+  display: flex;
+  padding: 5px;
+}
+.middle-section button{
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: blueviolet;
+  border: none;
+  color: whitesmoke;
+  font-size: 1.8rem;
+ 
+}
+.count-section{
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  background-color: white;
+  color: black;
+}
+.footer-section button{
+  padding: 5px 70px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: royalblue;
+  color: whitesmoke;
+  cursor: pointer;
+  margin-top: 8px;
+}
